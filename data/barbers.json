@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Elvin Məmmədov",
+    "specialty": "fade",
+    "experienceYears": 6,
+    "price": 15
+  },
+  {
+    "id": 2,
+    "name": "Orxan Əliyev",
+    "specialty": "saqqal",
+    "experienceYears": 4,
+    "price": 10
+  },
+  {
+    "id": 3,
+    "name": "Kamran Həsənov",
+    "specialty": "klassik",
+    "experienceYears": 8,
+    "price": 20
+  },
+  {
+    "id": 4,
+    "name": "Rəşad Quliyev",
+    "specialty": "fade",
+    "experienceYears": 3,
+    "price": 15
+  },
+  {
+    "id": 5,
+    "name": "Tural Nəsirov",
+    "specialty": "saqqal",
+    "experienceYears": 5,
+    "price": 12
+  },
+  {
+    "id": 6,
+    "name": "Anar Kərimov",
+    "specialty": "klassik",
+    "experienceYears": 10,
+    "price": 25
+  },
+  {
+    "id": 7,
+    "name": "Murad Qasımov",
+    "specialty": "fade",
+    "experienceYears": 2,
+    "price": 12
+  },
+  {
+    "id": 8,
+    "name": "İbrahim Məmmədli",
+    "specialty": "saqqal",
+    "experienceYears": 7,
+    "price": 18
+  },
+  {
+    "id": 9,
+    "name": "Fərid Əhmədov",
+    "specialty": "fade",
+    "experienceYears": 5,
+    "price": 15
+  },
+  {
+    "id": 10,
+    "name": "Cavid Rzayev",
+    "specialty": "klassik",
+    "experienceYears": 9,
+    "price": 22
+  }
+]
