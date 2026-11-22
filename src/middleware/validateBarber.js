@@ -1,4 +1,4 @@
-function validateBarber(req, res, next) {
+export default function validateBarber(req, res, next) {
     const { name, specialty, experienceYears, price } = req.body || {}
     const details = []
 
@@ -11,11 +11,11 @@ function validateBarber(req, res, next) {
     }
 
     if (typeof price !== "number" || Number.isNaN(price) || price < 0) {
-        details.push("price must be a number >= 0")
+        details.push("price must be a number greater than or equal to 0")
     }
 
     if (typeof experienceYears !== "number" || Number.isNaN(experienceYears) || experienceYears < 0) {
-        details.push("experienceYears must be a number >= 0")
+        details.push("experienceYears must be a number greater than or equal to 0")
     }
 
     if (details.length > 0) {
@@ -24,5 +24,3 @@ function validateBarber(req, res, next) {
 
     next()
 }
-
-module.exports = validateBarber

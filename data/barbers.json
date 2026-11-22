@@ -4,69 +4,159 @@
     "name": "Elvin Məmmədov",
     "specialty": "fade",
     "experienceYears": 6,
-    "price": 15
+    "price": 15,
+    "status": "open"
   },
   {
     "id": 2,
     "name": "Orxan Əliyev",
     "specialty": "saqqal",
     "experienceYears": 4,
-    "price": 10
+    "price": 10,
+    "status": "booked"
   },
   {
     "id": 3,
     "name": "Kamran Həsənov",
     "specialty": "klassik",
     "experienceYears": 8,
-    "price": 20
+    "price": 20,
+    "status": "open"
   },
   {
     "id": 4,
     "name": "Rəşad Quliyev",
     "specialty": "fade",
     "experienceYears": 3,
-    "price": 15
+    "price": 15,
+    "status": "cancelled"
   },
   {
     "id": 5,
     "name": "Tural Nəsirov",
     "specialty": "saqqal",
     "experienceYears": 5,
-    "price": 12
+    "price": 12,
+    "status": "open"
   },
   {
     "id": 6,
     "name": "Anar Kərimov",
     "specialty": "klassik",
     "experienceYears": 10,
-    "price": 25
+    "price": 25,
+    "status": "booked"
   },
   {
     "id": 7,
     "name": "Murad Qasımov",
     "specialty": "fade",
     "experienceYears": 2,
-    "price": 12
+    "price": 12,
+    "status": "open"
   },
   {
     "id": 8,
     "name": "İbrahim Məmmədli",
     "specialty": "saqqal",
     "experienceYears": 7,
-    "price": 18
+    "price": 18,
+    "status": "booked"
   },
   {
     "id": 9,
     "name": "Fərid Əhmədov",
     "specialty": "fade",
     "experienceYears": 5,
-    "price": 15
+    "price": 15,
+    "status": "open"
   },
   {
     "id": 10,
     "name": "Cavid Rzayev",
     "specialty": "klassik",
     "experienceYears": 9,
-    "price": 22
+    "price": 22,
+    "status": "cancelled"
+  },
+  {
+    "id": 11,
+    "name": "Nihad Hüseynov",
+    "specialty": "fade",
+    "experienceYears": 4,
+    "price": 14,
+    "status": "booked"
+  },
+  {
+    "id": 12,
+    "name": "Emin Cəfərov",
+    "specialty": "saqqal",
+    "experienceYears": 6,
+    "price": 16,
+    "status": "open"
+  },
+  {
+    "id": 13,
+    "name": "Rauf Abdullayev",
+    "specialty": "klassik",
+    "experienceYears": 7,
+    "price": 20,
+    "status": "booked"
+  },
+  {
+    "id": 14,
+    "name": "Vüqar Babayev",
+    "specialty": "fade",
+    "experienceYears": 8,
+    "price": 18,
+    "status": "open"
+  },
+  {
+    "id": 15,
+    "name": "Samir İsmayılov",
+    "specialty": "saqqal",
+    "experienceYears": 3,
+    "price": 11,
+    "status": "cancelled"
+  },
+  {
+    "id": 16,
+    "name": "Təbriz Məlikov",
+    "specialty": "klassik",
+    "experienceYears": 11,
+    "price": 26,
+    "status": "open"
+  },
+  {
+    "id": 17,
+    "name": "Zaur Əliyev",
+    "specialty": "fade",
+    "experienceYears": 5,
+    "price": 15,
+    "status": "booked"
+  },
+  {
+    "id": 18,
+    "name": "Kənan Sadıqov",
+    "specialty": "saqqal",
+    "experienceYears": 9,
+    "price": 19,
+    "status": "open"
+  },
+  {
+    "id": 19,
+    "name": "Nicat Novruzov",
+    "specialty": "klassik",
+    "experienceYears": 4,
+    "price": 17,
+    "status": "cancelled"
+  },
+  {
+    "id": 20,
+    "name": "Sənan Hacıyev",
+    "specialty": "fade",
+    "experienceYears": 7,
+    "price": 16,
+    "status": "booked"
   }
 ]
