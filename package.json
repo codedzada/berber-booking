@@ -2,13 +2,16 @@
   "name": "berber-booking",
   "version": "1.0.0",
   "description": "Bərbər və salonlar üçün onlayn vaxt rezervasiyası və idarəetmə platforması.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "db:psql": "docker compose exec db psql -U barber_booking -d barber_booking",
+    "db:reset": "docker compose exec db psql -U barber_booking -d barber_booking -f /db/schema.sql -f /db/seed.sql"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github_pat_11BUG6AJQOBEZEjDiUfWrr_g1MfDXdWEoOvsVXKKK2gFCW0IEFQYSwhe65VRZT6IUVQGLOGQhf1v6Duu@github.com/codedzada/berber-booking.git"
+    "url": "git+https://github.com/codedzada/berber-booking.git"
   },
   "keywords": [],
   "author": "",

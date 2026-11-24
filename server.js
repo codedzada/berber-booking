@@ -10,6 +10,15 @@ const PORT = 3000
 app.use(logger)
 app.use(express.json())
 
+app.get("/", (req, res) => {
+    res.status(200).json({
+        message: "Barber Booking API işləyir",
+        endpoints: {
+            barbers: "/barbers"
+        }
+    })
+})
+
 app.use("/barbers", barbersRouter)
 
 app.use(notFound)
